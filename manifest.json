@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+
+    "name": "Gleam",
+    "version": "0.2",
+    "description": "Determines fastest mirror based on load times of URLs on the current page.",
+    "icons": {
+        "128": "mirror-128.png"
+    },
+
+    "browser_action": {
+        "default_icon": "mirror-24.png",
+        "default_popup": "results.html",
+        "default_title": "Find fastest mirror on page"
+    },
+
+    "permissions": [
+        "tabs",
+        "<all_urls>"
+    ]
+}

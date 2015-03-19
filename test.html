@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Find the Fastest CentOS Mirror</title>
+    <script type="text/javascript" src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="scripts/simplex.js"></script>
+    <script type="text/javascript" src="scripts/test.js"></script>
+    <style type="text/css">
+    .chart div {
+        font: 10px sans-serif;
+        background-color: steelblue;
+        text-align: right;
+        padding: 3px;
+        margin: 1px;
+        color: white;
+    }
+    </style>
+</head>
+<body>
+	Improved version of Fastest Mirror from <a href="http://fastestmirror.appspot.com/centos">http://fastestmirror.appspot.com/centos</a>.
+
+    <h1>Find the Fastest CentOS Mirror</h1> Fastest Mirror helps you find the fastest CentOS software mirror in seconds.
+    <br> It is based on JavaScript Network Coordinate (JSNC) project. Project Homepage: <a href="http://code.google.com/p/jsnc/">http://code.google.com/p/jsnc/</a>
+
+    <br><br>
+    <div id="divContent"></div>
+    <br><br>
+
+    <table border="0" width="600">
+        <tr>
+            <td>
+                <div class='chart' id='chart'></div>
+            </td>
+        </tr>
+        <tr align="center">
+            <td>Fastest Mirrors (click for details)</td>
+        </tr>
+    </table>
+
+    <script type='text/javascript' src="scripts/main.js"></script>
+</body>
+</html>
